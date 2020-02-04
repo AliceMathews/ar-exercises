@@ -14,7 +14,7 @@ puts "----------"
 @store5 = Store.find_by(id: 5)
 @store6 = Store.find_by(id: 6)
 
-@store1.employees.create(first_name: "Khurram", last_name: "Virani", hourly_rate: 60)
+@store1.employees.create(first_name: "Khurram", last_name: "Virani", hourly_rate: 60, password: "password")
 @store1.employees.create(first_name: "Mindy", last_name: "Mac", hourly_rate: 70)
 @store2.employees.create(first_name: "Emma", last_name: "Giles", hourly_rate: 90)
 @store2.employees.create(first_name: "Stu", last_name: "Gold", hourly_rate: 80)
